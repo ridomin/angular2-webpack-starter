@@ -59,3 +59,8 @@ npm-debug.log
 # IDE #
 .idea/
 *.swp
+
+#cordova
+platforms/
+plugins/
+www/

@@ -40,7 +40,8 @@
     "postinstall": "npm run typings-install",
     "preversion": "npm test",
     "version": "npm run build",
-    "postversion": "git push && git push --tags"
+    "postversion": "git push && git push --tags",
+    "cordova": "cp -r dist/* www  && cordova run"
   },
   "dependencies": {
     "angular2": "2.0.0-beta.9",
